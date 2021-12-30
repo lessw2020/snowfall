@@ -3,6 +3,10 @@ helpful image handling utils - abstracts various file and opencv and pil feature
 
 # usage examples:
 
+~~~ 
+from image_handlers import *
+~~~
+
 load an image - a simple task in theory but often set with details...is the file there? is the argument a string and not a PathLib object, should it be loaded as rgb or bgr format?
 
 ![cv_load_func](https://user-images.githubusercontent.com/46302957/147787954-4fe6d5c5-beb9-454a-865d-0d38e366b6b9.png)
